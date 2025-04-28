@@ -322,15 +322,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 882e87ba7c26a9d47a4f001002357e94, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.9
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 882e87ba7c26a9d47a4f001002357e94, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.39
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 882e87ba7c26a9d47a4f001002357e94, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 882e87ba7c26a9d47a4f001002357e94, type: 3}
       propertyPath: m_LocalRotation.w
@@ -385,6 +385,7 @@ GameObject:
   - component: {fileID: 835818921}
   - component: {fileID: 835818920}
   - component: {fileID: 835818922}
+  - component: {fileID: 835818923}
   m_Layer: 9
   m_Name: Background
   m_TagString: Untagged
@@ -469,6 +470,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fd0dafcb3d842c4295a9f6cabd34b35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &835818923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835818919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c8974a4a04d0046ac1299da5ac8c92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &952689892
@@ -598,7 +611,7 @@ GameObject:
   - component: {fileID: 2014335012}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -739,6 +752,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7771123413107479506, guid: ceaf77dd341f26447bcf56813aba9dee, type: 3}
       propertyPath: m_Name
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771123413107479506, guid: ceaf77dd341f26447bcf56813aba9dee, type: 3}
+      propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
